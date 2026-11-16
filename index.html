@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="dark">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Vahab Mohammadi | Frontend Developer</title>
+<meta name="description" content="Portfolio and resume of Vahab Mohammadi, a web developer working with HTML, CSS, JavaScript, React, Node.js and Python.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@400;500&family=Poppins:wght@500;600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="./assets/css/style.css">
+</head>
+<body>
+
+<header class="site-header">
+  <div class="wrap bar">
+   <button id="themeToggle" class="theme-toggle" type="button">
+    <span id="themeIcon">☀</span>
+    <span id="themeText">Light Mode</span>
+</button>
+    <a class="brand" href="#top" aria-label="vahab.dev, back to top">
+      <svg viewBox="0 0 100 112" aria-hidden="true">
+        <polygon points="50,5 95,31 95,81 50,107 5,81 5,31" fill="none" stroke="var(--blue)" stroke-width="7" stroke-linejoin="round"/>
+        <polygon points="30,36 44,36 50,64 56,36 70,36 58,80 42,80" fill="var(--blue)"/>
+        <polyline points="25,49 16,58 25,67" fill="none" stroke="var(--blue)" stroke-width="5" stroke-linecap="round" stroke-linejoin="round"/>
+        <polyline points="75,49 84,58 75,67" fill="none" stroke="var(--blue)" stroke-width="5" stroke-linecap="round" stroke-linejoin="round"/>
+      </svg>
+      vahab.dev
+    </a>
+    <nav class="nav" aria-label="Sections">
+      <a href="#skills">Skills</a>
+      <a href="#projects">Projects</a>
+      <a href="#contact">Contact</a>
+    </nav>
+  </div>
+</header>
+
+<main id="top">
+  <section class="hero">
+    <div class="wrap hero-grid">
+      <div>
+        <h1>Vahab Mohammadi</h1>
+        <p class="role">Frontend Developer </p>
+        <p class="lede">I build websites and web apps from the interface down to the server. I work in HTML, CSS, JavaScript and React on the front end, and Node.js and Python on the back end.</p>
+        <div class="actions">
+          <a class="btn btn-primary" href="mailto:vahabmohammadi.dev@gmail.com">Email me</a>
+          <button class="btn btn-ghost" type="button" id="print">Save resume as PDF</button>
+        </div>
+      </div>
+      <div class="logo-card">
+        <img src="./assets/img/logo.jpg">
+      </div>
+    </div>
+  </section>
+
+  <section class="block" id="skills">
+    <div class="wrap">
+      <h2>Skills</h2>
+      <p class="intro">The tools I use to take a project from a blank file to something people can open in a browser.</p>
+      <div class="skills-grid">
+        <div class="honey" role="group" aria-label="Skills">
+          <ul>
+            <li class="hex"><span class="hex-label"><span class="hex-name">HTML</span><span class="hex-kind">Markup</span></span></li>
+            <li class="hex"><span class="hex-label"><span class="hex-name">CSS</span><span class="hex-kind">Styling</span></span></li>
+            <li class="hex"><span class="hex-label"><span class="hex-name">JavaScript</span><span class="hex-kind">Language</span></span></li>
+          </ul>
+          <ul>
+            <li class="hex"><span class="hex-label"><span class="hex-name">React</span><span class="hex-kind">UI library</span></span></li>
+            <li class="hex back"><span class="hex-label"><span class="hex-name">Node.js</span><span class="hex-kind">Runtime</span></span></li>
+            <li class="hex back"><span class="hex-label"><span class="hex-name">Python</span><span class="hex-kind">Language</span></span></li>
+          </ul>
+        </div>
+        <div class="groups">
+          <div class="group">
+            <h3>Front end</h3>
+            <p>Structured markup, responsive layouts and interactive interfaces built with HTML, CSS, JavaScript and React.</p>
+          </div>
+          <div class="group back">
+            <h3>Back end</h3>
+            <p>Server-side logic and APIs in Node.js, plus scripts, automation and services in Python.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- EDIT: replace the three placeholder projects below with your real work. -->
+  <section class="block" id="projects">
+    <div class="wrap">
+      <h2>Projects</h2>
+      <p class="intro">Selected work. Each entry lists what it does and the stack behind it.</p>
+      <ul class="project-list">
+        <li class="project">
+          <h3>Weather-App</h3>
+          <div>
+            <p>Add a short summary: what it does, who it is for, and what you built.</p>
+            <div class="stack"><span>React</span><span>Node.js</span></div>
+          </div>
+          <a class="link" href="#contact">Add link</a>
+        </li>
+        <li class="project">
+          <h3>SoccerFa</h3>
+          <div>
+            <p>Live football scores & standings | دموی آنلاین نتایج زنده مسابقات فوتبال ایران و جهان
+</p>
+            <div class="stack"><span>HTML</span><span>CSS</span><span>JavaScript</span>
+              <span>Responsive Disign</span><span>API Integration</span>
+              <span>DOM Manipulation</span>
+            </div>
+          </div>
+          <a class="link" href="https://vahabmohammadi-dev.github.io/soccerfa/">SoccerFa</a>
+        </li>
+        <li class="project">
+          <h3>Movie App </h3>
+          <div>
+            <p>Add a short summary: what it does, who it is for, and what you built.</p>
+            <div class="stack"><span>Python</span></div>
+          </div>
+          <a class="link" href="#contact">Add link</a>
+        </li>
+         <li class="project">
+          <h3>Online Shop</h3>
+          <div>
+            <p>Add a short summary: what it does, who it is for, and what you built.</p>
+            <div class="stack"><span>Python</span></div>
+          </div>
+          <a class="link" href="#contact">Add link</a>
+        </li>
+      </ul>
+    </div>
+  </section>
+
+  <section class="block" id="contact">
+    <div class="wrap">
+      <h2>Contact</h2>
+      <p class="intro">Have a project or a role in mind? Send me an email.</p>
+      <a class="contact-mail" href="mailto:vahabmohammadi.dev@gmail.com">vahabmohammadi.dev@gmail.com</a>
+      <div>
+        <button class="btn btn-ghost" type="button" id="copy">Copy email address</button>
+        <span class="copy-status" id="status" role="status" aria-live="polite"></span>
+      </div>
+    </div>
+  </section>
+</main>
+
+<footer class="site-footer">
+  <div class="wrap foot">
+    <span>&copy; <span id="year">2026</span> Vahab Mohammadi</span>
+    <span>vahab.dev</span>
+  </div>
+</footer>
+
+<script src="./assets/js/main.js"></script>
+</body>
+</html>
