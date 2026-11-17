@@ -49,7 +49,8 @@ portfolio/
 
 **Vahab Mohammadi**
 
-- GitHub: [Your GitHub Profile](YOUR_GITHUB_PROFILE_URL)
+- GitHub: https://vahabmohammadi-dev.github.io/
+- ()
 
 ## 📄 License
 
