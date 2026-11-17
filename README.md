@@ -50,7 +50,7 @@ portfolio/
 **Vahab Mohammadi**
 
 - GitHub: https://vahabmohammadi-dev.github.io/
-- (vahabmohammadi-dev)
+- (https://github.com/vahabmohammadi-dev)
 
 ## 📄 License
 
