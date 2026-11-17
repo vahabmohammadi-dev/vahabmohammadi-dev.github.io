@@ -49,8 +49,8 @@ portfolio/
 
 **Vahab Mohammadi**
 
-- GitHub: https://vahabmohammadi-dev.github.io/
-- (https://github.com/vahabmohammadi-dev)
+- live link: https://vahabmohammadi-dev.github.io/
+-github: (https://github.com/vahabmohammadi-dev)
 
 ## 📄 License
 
