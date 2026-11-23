@@ -49,8 +49,12 @@ portfolio/
 
 **Vahab Mohammadi**
 
+<<<<<<< HEAD
 - https://vahabmohammadi-dev.github.io/
 -github: (https://github.com/vahabmohammadi-dev)
+=======
+- GitHub: [@vahabmohammadi-dev](vahabmohammadi-dev.github.io)
+>>>>>>> b1240e5 (update project)
 
 ## 📄 License
 

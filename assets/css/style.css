@@ -223,6 +223,13 @@
     margin-left: calc(var(--w) / 2 + var(--g) / 2);
     margin-top: calc(var(--w) * -0.2887 + var(--g) * 0.866);
   }
+  /*ul next */
+.honey ul:nth-child(3) {
+  margin-left: 0;
+}
+.honey ul:nth-child(odd):not(:first-child) {
+  margin-top: calc(var(--w) * -0.2887 + var(--g) * 0.866);
+}
   .hex {
     --edge: var(--blue);
     --fill: var(--surface);
